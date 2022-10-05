@@ -29,6 +29,9 @@
     border-left: 1px solid greenyellow;
 }
 
+.dsnone {
+    display: none;
+}
 
 
         /* MACRO  AREE  */
@@ -264,7 +267,7 @@ div#playerbar {
 
                 /* MEDIA QUERY  */
 
-    /* TABLET */
+               /* TABLET */
 
 @media screen and (max-width: 768px) {
 
@@ -280,7 +283,21 @@ div#playerbar {
 
                /* MOBILE  */
 
-@media screen and (max-width: 768px) { 
+@media screen and (max-width: 425px) { 
 
-    
+    .rec-played-box {
+        width: calc(100% /2);
+    }
+
+    .nav ul, .nav h2, .nav h4 {
+        display: none;
+    }
+
+    .dsnone {
+        display: block;
+    }
+
+    .menunone {
+        padding-top: 20px;
+    }
 }
