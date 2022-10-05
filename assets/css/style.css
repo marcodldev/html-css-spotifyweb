@@ -103,3 +103,27 @@
 .rec-played-box img {
     width: 100%;
 }
+
+.rec-played h1 {
+    padding: 10px 10px;
+}
+
+.creato-text {
+    padding: 10px 10px;
+}
+
+.creato-box {
+    padding: 10px 10px;
+    text-align: center;
+}
+
+.creato-box img {
+    width:100%; 
+}
+
+.square img {
+    width: 100%;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    object-fit: cover;
+}
