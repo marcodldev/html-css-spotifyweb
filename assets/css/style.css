@@ -169,10 +169,19 @@ ul.sidebar {
     padding: 10px 10px;
     text-align: center;
     width: calc(100% /6);
+    position: relative;
 }
 
 .rec-played-box img {
     width: 100%;
+}
+
+.rec-played-box i {
+    position: absolute;
+    left: 43%;
+    top: 30%;
+    font-size: xxx-large;
+    display: none;
 }
 
 .rec-played h1, .rec-played h2 {
@@ -186,10 +195,19 @@ ul.sidebar {
 .creato-box {
     padding: 10px 10px;
     text-align: center;
+    position: relative;
 }
 
 .creato-box img {
     width:100%; 
+}
+
+.creato-box i {
+    position: absolute;
+    left: 43%;
+    top: 30%;
+    font-size: xxx-large;
+    display: none;
 }
 
 .square img {
@@ -264,6 +282,44 @@ div#playerbar {
     height: 10px;
     margin-right: 20px;
 }
+
+ /*                   HOVER  */
+
+ li:hover {
+    color: white;
+    cursor: pointer;
+ }
+
+ button:hover {
+    font-size: large;
+ }
+
+ li:hover #cross {
+    background-color: white;
+ }
+
+ .rec-played-box:hover img ,.creato-box:hover img {
+    opacity: 0.4;
+    cursor: pointer;
+    color: white;
+ }
+
+ .rec-played-box:hover i , .creato-box:hover i {
+    display: block;
+ }
+
+ .leftboxicon:hover i { 
+    cursor: pointer;
+    color: white;
+ }
+
+ .fticons:hover .fa-circle-play {
+    font-size: 3rem;
+    cursor: pointer;
+ }
+
+
+
 
                 /* MEDIA QUERY  */
 
