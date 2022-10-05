@@ -60,6 +60,7 @@
     color: white;
     padding-top: 5rem;
     height: 100%;
+    overflow: auto;
  }
 
  .main-container {
