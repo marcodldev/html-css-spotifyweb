@@ -97,4 +97,9 @@
 .rec-played-box {
     padding: 10px 10px;
     text-align: center;
+    width: calc(100% /6);
+}
+
+.rec-played-box img {
+    width: 100%;
 }
