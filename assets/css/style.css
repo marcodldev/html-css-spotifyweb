@@ -44,6 +44,7 @@
     flex-direction: column;
     position: relative;
     z-index: 2;
+    width: 10%;
  }
 
  .logo {
@@ -51,7 +52,7 @@
  }
 
  .logo img {
-    padding: 10px;
+    padding: 15px 20px 15px 20px;
  }
 
 
@@ -66,7 +67,7 @@
  }
 
  .main-container {
-    width: 100%;
+    width: 90%;
  }
 
  .upgrade {
@@ -86,4 +87,14 @@
 
 .main-menu li {
     padding: 0px 10px 0px 10px;
+}
+
+.rec-played-box-container {
+    flex-wrap: wrap;
+    padding: 10px 0px;
+}
+
+.rec-played-box {
+    padding: 10px 10px;
+    text-align: center;
 }
