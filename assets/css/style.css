@@ -20,6 +20,12 @@
     justify-content: space-between;
 }
 
+.greenbd {
+    border-left: 1px solid greenyellow;
+}
+
+
+
         /* MACRO  AREE  */
 
  .container-app {
@@ -79,6 +85,24 @@
     border-bottom: 1px solid grey;
 }
 
+.sidebar img {
+    width: 15%;
+}
+
+ul.sidebar {
+    padding: 20px 0px;
+}
+
+#cross {
+    display: inline;
+    background: grey;
+    color: black;
+}
+
+.playlist {
+    line-height: 40px;
+}
+
         /* MAIN AREA  */
 
  .main-area {
@@ -106,10 +130,13 @@
 
 .main-menu {
     justify-content: center;
+    padding: 1%;
 }
 
 .main-menu li {
     padding: 0px 10px 0px 10px;
+    font-weight: bold;
+    color: darkgrey;
 }
 
 .rec-played-box-container {
