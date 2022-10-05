@@ -16,6 +16,11 @@
     display: flex;
 }
 
+.flexcol {
+    display: flex;
+    flex-direction: column;
+}
+
 .f-space-between {
     justify-content: space-between;
 }
@@ -33,14 +38,17 @@
  }
 
  .container1{
-    height: 95%;
+    height: calc(100vh - 100px);
  }
 
  .container2 {
-    align-items: flex-end;
+    align-items: center;
     color: white;
     background-color: #282828;
-    height: 5%;
+    height: 100px;
+    z-index: 2;
+    position: fixed;
+    width: 100%;
  }
 
  .btn {
@@ -61,7 +69,7 @@
     flex-direction: column;
     position: relative;
     z-index: 2;
-    width: 10%;
+    width: 13%;
     padding: 15px 15px;
  }
 
@@ -97,6 +105,8 @@ ul.sidebar {
     display: inline;
     background: grey;
     color: black;
+    padding: 10px 7px 10px 10px;
+    margin-right: 10px;
 }
 
 .playlist {
@@ -114,7 +124,7 @@ ul.sidebar {
  }
 
  .main-container {
-    width: 90%;
+    width: 87%;
  }
 
  .upgrade {
@@ -154,7 +164,7 @@ ul.sidebar {
     width: 100%;
 }
 
-.rec-played h1 {
+.rec-played h1, .rec-played h2 {
     padding: 10px 10px;
 }
 
@@ -176,4 +186,70 @@ ul.sidebar {
     aspect-ratio: 1/1;
     border-radius: 50%;
     object-fit: cover;
+}
+
+       /* FOOTER AREA */
+
+.leftboxft img {
+    width: 50px;
+}
+
+.leftboxtext {
+    flex-direction: column;
+    padding-left: 10px;
+}
+
+.leftboxft {
+    padding:1px 0px 1px 10px;
+}
+
+.leftboxicon {
+    padding: 0px 20px;
+}
+
+.leftboxicon i {
+    padding: 0px 5px;
+    color: grey;
+}
+
+div#playerbar {
+    border: 0px solid grey;
+    width: 20rem;
+    height: 10px;
+    margin: 5px 10px;
+    background-color: #4a4a4a;
+    border-radius: 20px;
+}
+
+.middleboxft {
+    align-items: center;
+}
+
+.fticons i {
+    margin: 5px 20px;
+}
+
+.fa-circle-play {
+    font-size: 2rem;
+}
+
+.leftsec {
+    width: 20%;
+    align-items: center;
+}
+
+.rightboxi i {
+    padding: 0px 5px;
+}
+
+.rightboxi {
+    align-items: center;
+}
+
+.bar {
+    width: 100px;
+    background-color: dimgrey;
+    border-radius: 20px;
+    height: 10px;
+    margin-right: 20px;
 }
