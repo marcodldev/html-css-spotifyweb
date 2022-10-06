@@ -160,6 +160,11 @@ ul.sidebar {
     color: darkgrey;
 }
 
+.main-menu ul {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 .rec-played-box-container {
     flex-wrap: wrap;
     padding: 10px 0px;
@@ -314,7 +319,7 @@ div#playerbar {
     color: white;
  }
 
- .fticons:hover .fa-circle-play {
+.fticons .fa-circle-play:hover  {
     font-size: 3rem;
     cursor: pointer;
  }
@@ -329,11 +334,23 @@ div#playerbar {
 @media screen and (max-width: 768px) {
 
     .nav {
-        width: auto;
+        width: 30%;
     }
  
     .rec-played-box {
         width: calc(100% /3);
+    }
+
+    .creato-box {
+        width: 30%; 
+    }
+
+    .bar , .leftsec img {
+        display: none;
+    }
+
+    div#playerbar {
+        width: 5rem;
     }
 
 }
@@ -341,6 +358,10 @@ div#playerbar {
                /* MOBILE  */
 
 @media screen and (max-width: 425px) { 
+
+    .nav {
+        width: auto;
+    }
 
     .rec-played-box {
         width: calc(100% /2);
@@ -356,5 +377,26 @@ div#playerbar {
 
     .menunone {
         padding-top: 20px;
+    }
+
+    .creato-box {
+        width: 40%; 
+    }
+
+    div#playerbar {
+        width: 2rem;
+    }
+
+    .fa-volume-high , .fa-tv , .fa-shuffle, .fa-rotate-right {
+        display: none;
+    }
+
+    .leftboxicon {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .leftboxicon i {
+        padding: 5px 5px;
     }
 }
