@@ -31,6 +31,7 @@
 
 .dsnone {
     display: none;
+    padding-bottom: 5px;
 }
 
 
@@ -269,7 +270,7 @@ div#playerbar {
 }
 
 .leftsec {
-    width: 20%;
+    width: 17%;
     align-items: center;
 }
 
@@ -297,7 +298,7 @@ div#playerbar {
  }
 
  button:hover {
-    font-size: large;
+    font-size: 0.9rem;
  }
 
  li:hover #cross {
@@ -314,7 +315,7 @@ div#playerbar {
     display: block;
  }
 
- .leftboxicon:hover i { 
+ .leftboxicon:hover i , .user:hover h4 { 
     cursor: pointer;
     color: white;
  }
@@ -322,6 +323,15 @@ div#playerbar {
 .fticons .fa-circle-play:hover  {
     font-size: 3rem;
     cursor: pointer;
+ }
+
+ i:hover {
+    cursor: pointer;
+    font-size: 1.5rem;
+ }
+
+ .rec-played-box:hover i , .creato-box:hover i  {
+    font-size: 3rem;
  }
 
 
@@ -351,6 +361,10 @@ div#playerbar {
 
     div#playerbar {
         width: 5rem;
+    }
+
+    .leftsec {
+        width: 20%;
     }
 
 }
@@ -399,4 +413,6 @@ div#playerbar {
     .leftboxicon i {
         padding: 5px 5px;
     }
+
+
 }
